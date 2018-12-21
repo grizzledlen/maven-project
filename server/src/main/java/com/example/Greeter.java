@@ -12,7 +12,12 @@ public class Greeter {
 
   }
 
-  public String greet(final nal String someone) {
+/**
+ *
+ * @param something
+ * * @return something else
+ */
+  public final String greet(final nal String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
