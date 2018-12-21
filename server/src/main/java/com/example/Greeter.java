@@ -15,9 +15,9 @@ public class Greeter {
 /**
  *
  * @param something
- * * @return something else
+ * @return something else
  */
-  public final String greet(final nal String someone) {
+  public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
